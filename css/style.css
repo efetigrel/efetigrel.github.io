@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,700;1,400&display=swap");
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 15px;
 }
 ::-webkit-scrollbar-track {
   background: #000;
 }
 ::-webkit-scrollbar-thumb {
-  background: #17c8cf;
+  background: #fff;
 }
 * {
   margin: 0;
@@ -21,7 +21,7 @@
 }
 
 body {
-  background-image: url("bg.jpg");
+  background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -37,11 +37,11 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 1000px;
-  margin: auto;
-  margin-bottom: 100px;
+  margin: 100px auto;
   background-color: #0d0d0d;
-  border: 2px solid #17c8cf;
+  border: 2px solid #fff;
   border-radius: 15px;
+  opacity: 0.9;
 }
 .card:hover,
 .about:hover,
@@ -49,22 +49,21 @@ body {
 .hobbies:hover,
 .education:hover {
   transform: translateY(-20px);
-  transition: 0.5s;
-  box-shadow: 0 0 20px 3px #17c8cf;
+  transition: 0.7s;
+  box-shadow: 0 0 20px 3px #fff;
 }
 
 h1 {
   text-align: center;
   width: 100%;
   font-family: "Pacifico", cursive;
-  color: #17c8cf;
   font-size: 50px;
   margin: 50px 0px;
 }
 
 /* CARD */
 
-.card {
+.card-flex {
   display: flex;
   flex-direction: row;
 }
@@ -75,7 +74,7 @@ h1 {
 }
 
 .card-col-2 {
-  align-self: center;
+  margin-top: 50px;
   width: 100%;
   flex-basis: 60%;
 }
@@ -91,7 +90,7 @@ h1 {
 
 .fa-brands:hover {
   transform: translateY(-3px);
-  transition: 0.4s;
+  transition: 0.7s;
 }
 
 .fa-facebook-square:hover {
@@ -101,7 +100,7 @@ h1 {
   color: #dd2a7b;
 }
 .fa-github:hover {
-  color: #333333;
+  color: #808080;
 }
 .fa-twitter:hover {
   color: #08a0e9;
@@ -111,7 +110,7 @@ h1 {
 }
 
 .card-col-1 img {
-  margin: 50px 0 0 100px;
+  margin: 0 0 0 100px;
   width: 200px;
   border: solid #fff 3px;
   border-radius: 50%;
@@ -134,7 +133,6 @@ h1 {
 }
 
 .about h2 {
-  color: #17c8cf;
   margin: 50px;
 }
 
@@ -163,9 +161,6 @@ h1 {
 
 /* SKİLLS */
 
-.skills p {
-  color: #fff;
-}
 .skills-container {
   margin: 0 50px 50px 50px;
 }
@@ -173,7 +168,7 @@ h1 {
 .skills-bar-container {
   border-radius: 20px;
   width: 100%;
-  background-color: #ddd;
+  background-color: #fff;
 }
 
 .skills-bar {
@@ -189,7 +184,7 @@ h1 {
 .photoshop {
   border-radius: 10px 0 0 10px;
   margin: 10px 0 50px 0;
-  background-color: #0d7377;
+  background-color: #333;
 }
 
 .html {
@@ -254,4 +249,21 @@ h1 {
   margin: auto;
   margin: 50px;
   width: 85%;
+}
+
+/* BACKTOTOP */
+
+#backtotop {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+#backtotop i {
+  font-size: 45px;
+}
+
+#backtotop i:hover {
+  transform: translateY(-10px);
+  transition: 0.7s;
 }

@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -12,42 +13,41 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <title>Web Developer-Gökbörü Efe Tığrel</title>
   </head>
   <body>
     <main>
-      <h1>Web Developer</h1>
-      <section class="card">
-        <div class="card-col-1">
-          <img src="avatar.jpg" alt="personel" />
-
-          <h2 class="p2">GÖKBÖRÜ EFE TIĞREL</h2>
-        </div>
-        <div class="card-col-2">
-          <a
-            href="https://github.com/efetigrel"
-            class="fa-brands fa-github"
-          ></a>
-          <a
-            href="https://www.facebook.com/profile.php?id=100054423336694"
-            class="fa-brands fa-facebook-square"
-          ></a>
-          <a
-            href="https://twitter.com/efetigrel"
-            class="fa-brands fa-twitter"
-          ></a>
-          <a
-            href="https://www.secure.instagram.com/efe_tgrll/?hl=tr"
-            class="fa-brands fa-instagram"
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/g%C3%B6kb%C3%B6r%C3%BC-efe-ti%C4%9Frel-671673228"
-            class="fa-brands fa-linkedin-in"
-          ></a>
+      <section class="card" id="back-totop">
+        <h1>Web Developer</h1>
+        <div class="card-flex">
+          <div class="card-col-1">
+            <img src="images/avatar.jpg" alt="personel" />
+            <h2 class="p2">GÖKBÖRÜ EFE TIĞREL</h2>
+          </div>
+          <div class="card-col-2">
+            <a
+              href="https://github.com/efetigrel"
+              class="fa-brands fa-github"
+            ></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100054423336694"
+              class="fa-brands fa-facebook-square"
+            ></a>
+            <a
+              href="https://twitter.com/efetigrel"
+              class="fa-brands fa-twitter"
+            ></a>
+            <a
+              href="https://www.secure.instagram.com/efe_tgrll/?hl=tr"
+              class="fa-brands fa-instagram"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/g%C3%B6kb%C3%B6r%C3%BC-efe-ti%C4%9Frel-671673228"
+              class="fa-brands fa-linkedin-in"
+            ></a>
+          </div>
         </div>
       </section>
-
       <section class="about">
         <h1>Merhaba</h1>
         <p>
@@ -82,13 +82,12 @@
           </div>
         </div>
       </section>
-
       <section class="skills">
         <h1>Yetenekler</h1>
         <div class="skills-container">
           <p>HTML</p>
           <div class="skills-bar-container">
-          <div class="skills-bar html">90%</div>
+            <div class="skills-bar html">90%</div>
           </div>
 
           <p>CSS</p>
@@ -107,7 +106,6 @@
           </div>
         </div>
       </section>
-
       <section class="hobbies">
         <h1>Hobiler</h1>
         <div class="hobbies-col-1">
@@ -135,41 +133,41 @@
             <li>YÜRÜYÜŞ</li>
             <li>MÜZİK</li>
           </div>
+        </div>
       </section>
-
       <section class="education">
-         <h1>Eğitim</h1>
+        <h1>Eğitim</h1>
         <div class="columns">
-        <span>
-          <i class="fa-solid fa-school"></i>
-        </span>
-        <span>
-          <h2>Finike Anadolu Lisesi</h2>
-          <small>Lise(2017-2021)</small>
-          <p>Lise eğitimimi Finike Anadolu Lisesi'nde tamamladım.</p>
-        </span>
+          <span>
+            <i class="fa-solid fa-school"></i>
+          </span>
+          <span>
+            <h2>Finike Anadolu Lisesi</h2>
+            <small>Lise(2017-2021)</small>
+            <p>Lise eğitimimi Finike Anadolu Lisesi'nde tamamladım.</p>
+          </span>
         </div>
-
         <hr />
-
         <div class="columns">
-         <span >
-          <i class="fa-solid fa-graduation-cap"></i>
-        </span>
-        <span>
-          <h2>Isparta Uygulamalı Bilimler Üniversitesi</h2>
-          <small>Üniversite(2021-devam etmekte)</small>
-          <p>
-            Üniversite eğitimimi Isparta Uygulamalı Bilimler Üniversitesi'nde
-          </p>
-          <p>
-            devam etmekteyim. Bilgisayar Programcılığı 1. sınıf öğrencisiyim.
-          </p>
-          <br><br>
-        </span>
+          <span>
+            <i class="fa-solid fa-graduation-cap"></i>
+          </span>
+          <span>
+            <h2>Isparta Uygulamalı Bilimler Üniversitesi</h2>
+            <small>Üniversite(2021-devam etmekte)</small>
+            <p>
+              Üniversite eğitimimi Isparta Uygulamalı Bilimler Üniversitesi'nde
+            </p>
+            <p>
+              devam etmekteyim. Bilgisayar Programcılığı 1. sınıf öğrencisiyim.
+            </p>
+            <br /><br />
+          </span>
         </div>
       </section>
+      <a href="#back-totop" id="backtotop">
+        <i class="fas fa-chevron-circle-up"></i>
+      </a>
     </main>
   </body>
 </html>
-    
