@@ -42,6 +42,7 @@ body {
   border: 2px solid #fff;
   border-radius: 15px;
   opacity: 0.9;
+  transition: 0.7s;
 }
 .card:hover,
 .about:hover,
@@ -49,7 +50,6 @@ body {
 .hobbies:hover,
 .education:hover {
   transform: translateY(-20px);
-  transition: 0.7s;
   box-shadow: 0 0 20px 3px #fff;
 }
 
@@ -86,11 +86,11 @@ h1 {
   text-decoration: none;
   color: #fff;
   font-size: 70px;
+  transition: 0.7s;
 }
 
 .fa-brands:hover {
   transform: translateY(-3px);
-  transition: 0.7s;
 }
 
 .fa-facebook-square:hover {
@@ -255,15 +255,15 @@ h1 {
 
 #backtotop {
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 20px;
+  right: 20px;
 }
 
 #backtotop i {
   font-size: 45px;
+  transition: 0.7s;
 }
 
 #backtotop i:hover {
   transform: translateY(-10px);
-  transition: 0.7s;
 }
