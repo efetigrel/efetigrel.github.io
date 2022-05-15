@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,700;1,400&display=swap");
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #17c8cf;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+  color: #fff;
+  font-size: xx-large;
+  list-style: none;
+  letter-spacing: 1px;
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.card,
+.about,
+.skills,
+.hobbies,
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 100px;
+  background-color: #0d0d0d;
+  border: 2px solid #17c8cf;
+  border-radius: 15px;
+}
+.card:hover,
+.about:hover,
+.skills:hover,
+.hobbies:hover,
+.education:hover {
+  transform: translateY(-20px);
+  transition: 0.5s;
+  box-shadow: 0 0 20px 3px #17c8cf;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  font-family: "Pacifico", cursive;
+  color: #17c8cf;
+  font-size: 50px;
+  margin: 50px 0px;
+}
+
+/* CARD */
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-col-1 {
+  flex-basis: 40%;
+  width: 100%;
+}
+
+.card-col-2 {
+  align-self: center;
+  width: 100%;
+  flex-basis: 60%;
+}
+
+.fa-brands {
+  border-radius: 50%;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 70px;
+}
+
+.fa-brands:hover {
+  transform: translateY(-3px);
+  transition: 0.4s;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+}
+.fa-instagram:hover {
+  color: #dd2a7b;
+}
+.fa-github:hover {
+  color: #333333;
+}
+.fa-twitter:hover {
+  color: #08a0e9;
+}
+.fa-linkedin-in:hover {
+  color: #0077b5;
+}
+
+.card-col-1 img {
+  margin: 50px 0 0 100px;
+  width: 200px;
+  border: solid #fff 3px;
+  border-radius: 50%;
+}
+
+.card h2 {
+  margin: 30px 0 50px 30px;
+}
+
+/* ABOUT */
+
+.about p {
+  margin: 0px 50px;
+}
+
+.about hr {
+  margin: auto;
+  margin-top: 50px;
+  width: 85%;
+}
+
+.about h2 {
+  color: #17c8cf;
+  margin: 50px;
+}
+
+.about-col-1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 50px;
+}
+
+.about li {
+  font-size: x-large;
+  margin-bottom: 5px;
+}
+
+.li-2,
+.li-3,
+.li-4 {
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+.li-2,
+.li-4 {
+  opacity: 0.7;
+}
+
+/* SKİLLS */
+
+.skills p {
+  color: #fff;
+}
+.skills-container {
+  margin: 0 50px 50px 50px;
+}
+
+.skills-bar-container {
+  border-radius: 20px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills-bar {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.html,
+.css,
+.js,
+.photoshop {
+  border-radius: 10px 0 0 10px;
+  margin: 10px 0 50px 0;
+  background-color: #0d7377;
+}
+
+.html {
+  width: 90%;
+}
+.css {
+  width: 80%;
+}
+.js {
+  width: 5%;
+}
+.photoshop {
+  width: 50%;
+}
+
+/* HOBBİES */
+
+.hobbies-col-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 50px 50px 100px;
+}
+
+.fa-solid {
+  margin-right: 20px;
+}
+
+.li-2-1,
+.li-4-1,
+.li-6-1 {
+  margin-right: 75px;
+  opacity: 0.7;
+}
+
+.hobbies li {
+  margin-bottom: 50px;
+}
+
+/* EDUCATİON */
+
+.fa-school,
+.fa-graduation-cap {
+  font-size: 70px;
+  margin: 0 50px 0 50px;
+}
+
+.columns {
+  display: flex;
+}
+
+.education small {
+  font-size: medium;
+  opacity: 0.7;
+}
+
+.education p {
+  font-size: 20px;
+}
+
+.education hr {
+  margin: auto;
+  margin: 50px;
+  width: 85%;
+}
