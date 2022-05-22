@@ -186,7 +186,7 @@ h1 {
 .html,
 .css,
 .js,
-.photoshop {
+.bootstrap {
     border-radius: 1rem 0 0 1rem;
     margin: 1rem 0 5rem 0;
     background-color: #333;
@@ -199,10 +199,21 @@ h1 {
     width: 80%;
 }
 .js {
-    width: 5%;
+    width: 10%;
 }
-.photoshop {
+.bootstrap {
     width: 50%;
+}
+
+.skills p {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.skills i {
+    display: flex;
 }
 
 /* HOBBİES */
