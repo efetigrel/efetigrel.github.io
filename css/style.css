@@ -206,9 +206,7 @@ h1 {
 }
 
 .skills p {
-    display: flex;
     align-self: center;
-    text-align: center;
     margin-left: 2rem;
 }
 
