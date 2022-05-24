@@ -84,7 +84,8 @@ h1 {
     flex-basis: 60%;
 }
 
-.fa-brands {
+.fa-brands,
+.fa-regular {
     border-radius: 50%;
     padding: 20px;
     text-align: center;
@@ -94,7 +95,8 @@ h1 {
     transition: 0.7s;
 }
 
-.fa-brands:hover {
+.fa-brands:hover,
+.fa-regular:hover {
     transform: translateY(-3px);
 }
 
@@ -186,7 +188,8 @@ h1 {
 .html,
 .css,
 .js,
-.bootstrap {
+.bootstrap,
+.photoshop {
     border-radius: 1rem 0 0 1rem;
     margin: 1rem 0 5rem 0;
     background-color: #333;
@@ -202,6 +205,9 @@ h1 {
     width: 10%;
 }
 .bootstrap {
+    width: 50%;
+}
+.photoshop {
     width: 50%;
 }
 
