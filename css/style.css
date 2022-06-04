@@ -24,7 +24,6 @@
 html {
     font-size: 10px;
     scroll-behavior: smooth;
-    width: 100%;
 }
 
 body {
@@ -33,7 +32,6 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    width: 100%;
 }
 
 .card,
