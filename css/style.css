@@ -9,6 +9,7 @@
 ::-webkit-scrollbar-thumb {
     background: #fff;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -23,6 +24,8 @@
 html {
     font-size: 10px;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 body {
@@ -31,6 +34,8 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .card,
