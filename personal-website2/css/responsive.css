@@ -1,0 +1,52 @@
+@media screen and (max-width: 1199px) {
+}
+
+@media (min-width: 374px) and (max-width: 767px) {
+    .card,
+    .about,
+    .skills,
+    .hobbies,
+    .education {
+        width: 95%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .card,
+    .about,
+    .skills,
+    .hobbies,
+    .education {
+        width: 95%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .card,
+    .about,
+    .skills,
+    .hobbies,
+    .education {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .card,
+    .about,
+    .skills,
+    .hobbies,
+    .education {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .card,
+    .about,
+    .skills,
+    .hobbies,
+    .education {
+        width: 80%;
+    }
+}
